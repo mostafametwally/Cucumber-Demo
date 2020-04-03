@@ -1,0 +1,80 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-26T21:17:35.895Z",
+        "line": 21,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "stepDefenition.homeLogo.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "navigate to google.com",
+            "match": {
+              "location": "stepDefenition.homeLogo.navigate_to_google_com()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I complete action",
+            "match": {
+              "location": "stepDefenition.homeLogo.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I validate the outcome",
+            "match": {
+              "location": "stepDefenition.homeLogo.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefenition.homeLogo.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/feature.feature",
+    "tags": []
+  }
+]
